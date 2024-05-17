@@ -1,0 +1,23 @@
+{
+  "name": "redclover-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mmednik/redclover-bridge.git"
+  },
+  "author": "mmednik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmednik/redclover-bridge/issues"
+  },
+  "homepage": "https://github.com/mmednik/redclover-bridge#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
