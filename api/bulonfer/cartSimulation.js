@@ -5,7 +5,7 @@ export default async function handler(request, response) {
 
   try {
     const res = await fetch(
-      `https://bulonfer.vtexcommercestable.com.br/api/checkout/pub/orderForms/simulation?sc=2`,
+      `https://bulonfer.vtexcommercestable.com.br/api/checkout/pub/orderForms/simulation`,
       {
         method: "POST",
         headers: {
