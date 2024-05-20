@@ -11,8 +11,8 @@ export default async function handler(request, response) {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json; charset=utf-8",
-          "X-VTEX-API-AppKey": process.env.NATURALLIFE_VTEX_APPKEY,
-          "X-VTEX-API-AppToken": process.env.NATURALLIFE_VTEX_APPTOKEN,
+          "X-VTEX-API-AppKey": process.env.BULONFER_VTEX_APPKEY,
+          "X-VTEX-API-AppToken": process.env.BULONFER_VTEX_APPTOKEN,
         },
         body: JSON.stringify({
           items: [
