@@ -2,6 +2,7 @@ import fetch from "node-fetch";
 
 export default async function handler(request, response) {
     const { skuId } = request.query;
+    console.log("sku: ",skuId)
     try {
       const res = await fetch(
         `https://previsoraarg.vtexpayments.com.br/api/catalog/pvt/stockkeepingunit/${skuId}`,
@@ -15,7 +16,7 @@ export default async function handler(request, response) {
           },
         }
       );
-
+      console.log("respuesta: ", res);
       const jsonres = await res.json();
       response.status(200).json(jsonres);
     } catch (error) {
